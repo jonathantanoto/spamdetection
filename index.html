@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+	<title>The Inevitable Change</title>
+	<link rel="preconnect" href="https://fonts.gstatic.com"> 
+	<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;800&display=swap" rel="stylesheet">
+	<link href="./styles/dashboard.css" rel="stylesheet" />
+	<script src="https://code.highcharts.com/highcharts.js"></script>
+	<script src="https://code.highcharts.com/highcharts-more.js"></script>
+	<script src="https://code.highcharts.com/maps/modules/exporting.js"></script>
+	<script src="https://code.highcharts.com/modules/heatmap.js"></script>
+	<script src="https://code.highcharts.com/modules/treemap.js"></script>
+	<script src="./scripts/main.js"></script>
+</head>
+
+<body>
+	<h1>THE INEVITABLE CHANGE</h1>
+	<p id=subtitle>Climate change is a controversial topic that people have not come to agreement on whether or not it is real.<br /><br /><em>The truth lies within the data.</em></p>
+	<br />
+	<section id="graphStatistics">
+		<div id="scoreCards">
+			<div id='globalTemperature'>
+				<h2>Global Temperature</h2>
+				<h3>&uarr; 2.27&deg;C</h3>
+				<p>from 1750</p>
+				<button class="button" onclick="plotTemp()">Plot</button>
+			</div>
+
+			<div id='co2Emissions'>
+				<h2>Carbon Emissions</h2>
+				<h3>&uarr; 832.29</h3>
+				<p>ppm (since 1970)</p>
+				<button class="button" onclick="plotCarbon()">Plot</button>
+			</div>
+
+			<div id='iceCaps'>
+				<h2>Antarctica Ice Mass</h2>
+				<h3>&darr; 156,000,000,000</h3>
+				<p>tonnes per year</p>
+				<button class="button" onclick="plotIce()">Plot</button>
+			</div>
+		</div>
+
+		<br>
+	</section>
+
+	<section class='second'>
+		<div id="statsGraph" class='secondCont'></div>
+		<div id="firstInfo" class='secondCont'></div>
+	</section>
+
+	<hr />
+
+	<section class='third'>
+		<div id="treeMap1"></div>
+		<div id="secondInfo">
+			<ul>
+				<li>Here are the 20 most carbon-emitting countries in the world.</li>
+				<li>China's Carbon Emissions amount to almost as much as USA, India, and Russia combined.</li>
+			</ul>
+		</div>
+	</section>
+
+	<hr />
+
+	<section class='fourth'>
+		<div id="treeMap2"></div>
+		<div id="thirdInfo">
+			<ul>
+				<li>Total Carbon Budget to stay under 1.5°C increase in annual temperature is <b>2.8 trillion metric tons</b>.</li>
+				<li>We have spent <b>78.6%</b> of the budget by 2017.</li>
+				<li>Between 2008-2017: <b>400 billion tons</b>.</li>
+				<li>That leaves us with only <b>20.7%</b> left of the budget for the future</li>
+			</ul>
+		</div>
+	</section>
+
+	<hr />
+	<br>
+
+	<h2 id='Conclusion'>
+		<em>Climate change is real and there is little time left to fix the mistakes of the past.</em>
+	</p>
+
+	<br>
+</body>
+
+<footer>
+	<p id='footer'>By: Jonathan Tanoto</p>
+</footer>
+
+</html>
