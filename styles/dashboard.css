@@ -13,21 +13,21 @@ body {
 
 
 h1 {
-    font-size: 50pt;
+    font-size: 450%;
     font-weight: bold;
     text-align: center;
-    padding-top: 70px;
-    padding-bottom: 30px;
+    padding-top: 6%;
+    padding-bottom: 3%;
     margin: 0;
     background: #242582;
     color: #F5F5F5;
 }
 
 #subtitle {
-    font-size: 20pt;
+    font-size: 170%;
     text-align: center;
-    padding-top: 0px;
-    padding-bottom: 30px;
+    padding-top: 0;
+    padding-bottom: 3%;
     margin: 0;
     background: #242582;
     color: #f5f5f5ba;
@@ -37,13 +37,12 @@ h1 {
     background: #242582;
     background-color: #242582; 
     color: white; 
-    border: 2px solid #99738E;
-    padding: 16px 32px;
+    border: 5px solid #99738E;
+    padding: 1.36% 2.72%;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 18px;
-    margin: 4px 2px;
+    font-size: 70%;
     transition-duration: 1s;
     cursor: pointer;
 }
@@ -55,49 +54,55 @@ h1 {
 
 h2 {
     font-weight: bold;
-    font-size: 30pt;
+    font-size: 220%;
     color: #2F2F82;
     text-align: left;
-    padding-top: 20px;
-    padding-left: 20px;
-    margin-left: 200px;
-    margin-right: 200px;
+    padding: 1%;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 0;
 }
 
 #content {
-    font-size: 22px;
+    font-size: 150%;
     text-align: left;
-    padding: 20px;
-    margin-left: 200px;
-    margin-right: 200px;
+    padding: 1%;
+    padding-top: 0;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 0;
+
 }
 
 ol {
-    font-size: 22px;
+    font-size: 150%;
     text-align: left;
-    margin-left: 225px;
-    margin-right: 200px;
+    padding: 0;
+    margin: 0;
+    margin-left: 20%;
+    margin-right: 20%;
 }
 
 ul {
-    font-size: 22px;
+    font-size: 150%;
     text-align: left;
-    margin-left: 225px;
-    margin-right: 200px;
+    padding: 0;
+    margin: 0;
+    margin-left: 20%;
+    margin-right: 20%;
 }
 
 #footer {
     text-align: center;
-    font-size: 20px;
-    margin: 10px;
+    font-size: 150%;
+    margin: 1%;
     padding: 0;
 }
 
 img {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 20px;
+    margin: auto;
+    padding: 1%;
     width: 50%;
 }
 
@@ -106,12 +111,11 @@ img {
 }
 
 h3 {
-    font-weight: bold;
-    font-size: 30px;
+    font-size: 80%;
     color: #822f4c;
     text-align: left;
-    padding-top: 20px;
-    padding-left: 20px;
-    margin-left: 200px;
-    margin-right: 200px;
+    padding: 1%;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 0;
 }
